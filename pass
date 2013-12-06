@@ -1,0 +1,8 @@
+from random import*
+length = 16
+character = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWYZ0123456789@#$%<>=" 
+ 
+pw =""            
+pw = pw.join((choice(character) for i in range (length))) 
+print (pw)           
+
