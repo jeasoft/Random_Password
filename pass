@@ -1,3 +1,11 @@
+/**
+ * @Name: Random_Password
+ * @author : Emmanuel Ponciano
+ * @version: 0.0.1
+ * @date : 2013-12-05 
+ *
+ **/
+
 from random import*
 length = 16
 character = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWYZ0123456789@#$%<>=" 
